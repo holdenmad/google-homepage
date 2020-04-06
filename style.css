@@ -6,10 +6,34 @@ p {
     font-size: 12px;
 }
 
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 8px;
+    background-color: #ffffff;
+    font-size: 13px;
+}
+
+li {
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
 .logo {
     display: block;
     margin: 0px auto;
     padding: 20px;
+    margin-top: 5%;
 }
 
 .form {
@@ -32,6 +56,28 @@ p {
     margin-left: 4px;
     padding-right: 16px;
     padding-left: 16px;
-    font-size: 14px;
+    font-size: 16px;
     color: #5F6368;
+}
+
+#profile_pic {
+    border-radius: 50%;
+}
+
+#squares {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-left {
+    float: left;
+}
+.nav-right {
+    float: right;
+}
+
+.footer {
+
 }

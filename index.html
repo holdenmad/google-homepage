@@ -5,14 +5,30 @@
     x Center logo and search bar
     x Create 'Google Search' and 'Feeling Lucky' buttons underneath
     x 'Google offered in: Deutsch' underneath that
-    Create navbar at top with: About, Store, Gmail, Images, blocks, profile pic
-    Round edges of search bar
-    Elongate search bar
+    x Create navbar at top with: About, Store (left), Gmail, Images, blocks, profile pic (right)
+    x Round edges of search bar
+    x Elongate search bar
+    x Align nav bar contents left and right respectively
+    Vertically align squares in navbar
+    Style buttons correctly
+    Add footer with: Germany (top), Advertising, Business, How Search Works (left), Privacy, Terms, Settings (right)
+    Add hover functions for buttons
+    Add search (left) and voice search (right) icons
 -->
 <head>
     <link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
+    <nav>
+        <ul>
+            <li class="nav-left"><a href="#">About</a></li>
+            <li class="nav-left"><a href="#">Store</a></li>
+            <li class="nav-right"><a href="#">Gmail</a></li>
+            <li class="nav-right"><a href="#">Images</a></li>
+            <li class="nav-right"><a href="#"><img id="squares" src="apps-icon.png"></a></li>
+            <li class="nav-right"><img id="profile_pic" src="https://lh3.googleusercontent.com/-3PZ1OYjMY8A/AAAAAAAAAAI/AAAAAAAAAAA/AAKWJJOgZjh2aMIeORl-UtVAiRK_3U361w.CMID/s32-c/photo.jpg" alt-text="profile pic"><a href="#"></a></li>
+        </ul>
+    </nav>
     <!--Check how to correctly source the image from private folders.-->
     <img class="logo" src="googlelogo_color.png" alt="Google Logo">
     <div class="form">
@@ -24,4 +40,9 @@
         <p>Google offered in: <a href="#">Deutsch</a></p>
     </form>   
 </div> 
+<nav>
+    <ul>
+        <li></li>
+    </ul>
+</nav>
 </body>
