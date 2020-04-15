@@ -1,33 +1,85 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+  min-height: 100%;
+  min-height: 100vh;
 }
 
 p {
     font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    height: 100%;
-    line-height: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 8px;
-    background-color: #ffffff;
-    font-size: 13px;
-}
+/* Navigation Bar */
+
+
+
+nav {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+  }
 
 li {
+    display: inline;
 }
 
-li a {
-    display: block;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar li a {
     color: black;
-    text-align: center;
     padding: 10px;
     text-decoration: none;
 }
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    font-size: 13px;
+}
+
+.nav-links {
+
+}
+
+.nav-item {
+    display: inline-block;
+    align-items: center;
+}
+
+#profile_pic {
+    border-radius: 50%;
+}
+
+#squares {
+    width: 25px;
+    height: 25px;
+}
+
+/* Logo and Search-Bar */
 
 .logo {
     display: block;
@@ -56,28 +108,54 @@ li a {
     margin-left: 4px;
     padding-right: 16px;
     padding-left: 16px;
-    font-size: 16px;
+    font-size: 15px;
     color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 3px;
 }
 
-#profile_pic {
-    border-radius: 50%;
+#footer-bar {
+    background: rgb(242, 242, 242);
+    border-top: .2px solid;
+    border-color: #e4e4e4;
+    position: absolute;
+    right: 0;bottom:0;left:0;
 }
 
-#squares {
-    width: 32px;
-    height: 32px;
-    display: inline-block;
-    vertical-align: middle;
+#footer-bar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: .2px solid;
+    border-bottom: .2px solid;
+    border-color: #e4e4e4;
 }
 
-.nav-left {
-    float: left;
-}
-.nav-right {
-    float: right;
+footer {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    font-size: 15px;
+   
 }
 
-.footer {
+footer li a {
+    color: grey;
+    padding: 20px;
+    text-decoration: none;
+}
 
+footer ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
 }
